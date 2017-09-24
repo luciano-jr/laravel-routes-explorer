@@ -1,5 +1,5 @@
 {
-    "name": "infyomlabs/routes-explorer",
+    "name": "luciano-jr/routes-explorer",
     "description": "Laravel Routes Explorer",
     "keywords": [
         "laravel",
@@ -26,6 +26,13 @@
     "autoload": {
         "psr-4": {
             "InfyOm\\RoutesExplorer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "InfyOm\\RoutesExplorer\\RoutesExplorerServiceProvider"
+            ]
         }
     }
 }
